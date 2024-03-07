@@ -1,6 +1,13 @@
+## Overview
+
+This is a project to practice implementing a simple ERC20 token.
+
 ## Reference
 
-The original one is from [Chi-AnTai/ERC20-practice](https://github.com/Chi-AnTai/ERC20-practice)
+- The original practice project is from [Chi-AnTai/ERC20-practice](https://github.com/Chi-AnTai/ERC20-practice)
+- [ERC-20: Token Standard](https://eips.ethereum.org/EIPS/eip-20)
+- [Solidity](https://soliditylang.org/)
+- [Foundry Book](https://book.getfoundry.sh/)
 
 ## Foundry
 
@@ -15,7 +22,7 @@ Foundry consists of:
 
 ## Documentation
 
-https://book.getfoundry.sh/
+
 
 ## Usage
 
