@@ -1,3 +1,7 @@
+## Reference
+
+The original one is from [Chi-AnTai/ERC20-practice](https://github.com/Chi-AnTai/ERC20-practice)
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
