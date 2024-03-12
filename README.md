@@ -9,7 +9,9 @@ This is a project to practice implementing a simple ERC20 token.
 - [Solidity](https://soliditylang.org/)
 - [Foundry Book](https://book.getfoundry.sh/)
 
-## Foundry
+## Script
+
+### Foundry Basic Infomation
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -44,23 +46,18 @@ $ forge fmt
 $ forge snapshot
 ```
 
-### Anvil
+### Deploy on sepolia
 
 ```shell
-$ anvil
+$ forge create --rpc-url https://ethereum-sepolia.publicnode.com \
+    --constructor-args "your name" "your symbol" \
+    --private-key "your private-key (sepolia chain)" \
+    --etherscan-api-key "your etherscan-api-key" \
+    --verify \
+    src/TestERC20.sol:TestERC20
 ```
 
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
+Then you can see your contract on **https://sepolia.etherscan.io/address/${your contract address}**.
 
 ### Help
 
